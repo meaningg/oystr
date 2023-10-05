@@ -1,0 +1,6 @@
+.main {
+  @apply fixed w-full h-16 bottom-0 p-1 text-white sm:hidden;
+  .menuContainer {
+    @apply bg-neutral-900 w-auto justify-evenly h-full rounded-md flex items-center gap-1;
+  }
+}

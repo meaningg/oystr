@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+.header {
+  background-color: rgb(11, 11, 11);
+  @apply py-5 px-12 text-white flex gap-12 items-center justify-center sm:justify-start;
+  .logo {
+    font-family: "Pixelify Sans", cursive;
+    animation: color-change 180s infinite;
+    @apply text-2xl select-none;
+  }
+  .menu {
+    font-family: "Inter", sans-serif;
+    @apply gap-1 hidden sm:flex;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+
+  50% {
+    color: rgb(255, 94, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}

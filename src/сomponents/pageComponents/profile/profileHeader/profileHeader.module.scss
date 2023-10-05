@@ -1,0 +1,12 @@
+.main {
+  @apply flex w-full  flex-col sm:flex-row gap-5 justify-between items-center p-12;
+  .userWelcome {
+    @apply flex justify-center items-center gap-5;
+    .userWelcomeTitle {
+      @apply text-2xl font-bold;
+    }
+    .userWelcomeImage {
+      @apply h-10 w-10 rounded-lg;
+    }
+  }
+}

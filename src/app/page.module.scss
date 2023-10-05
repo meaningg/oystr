@@ -1,0 +1,20 @@
+.main {
+  @apply flex-grow flex justify-start items-center flex-col;
+  .mainTitle {
+    font-weight: 900;
+    @apply text-white text-[5rem] sm:text-[10rem] leading-none font-extrabold mt-20 flex w-full h-full justify-center items-center flex-col;
+    p:first-child {
+      background-image: url("/pbgfirst.jpg");
+      background-position: center;
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+    }
+    p:last-child {
+      @apply text-orange-200;
+    }
+  }
+}

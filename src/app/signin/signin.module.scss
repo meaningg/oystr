@@ -1,0 +1,9 @@
+.main {
+  @apply flex-grow flex flex-col justify-start items-center justify-center gap-5 p-5;
+  .signInLogo {
+    @apply w-5 h-5;
+  }
+  .signInTitle {
+    @apply text-2xl text-white;
+  }
+}
