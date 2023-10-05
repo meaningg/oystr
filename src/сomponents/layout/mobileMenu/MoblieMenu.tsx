@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 export default function MobileMenu() {
   const [isMobile, setIsMobile] = useState(false);
-
+  const pathname: string = usePathname();
   useEffect(() => {
     const checkIsMobile = () => {
       setIsMobile(window.matchMedia("(max-width: 768px)").matches);
@@ -16,7 +16,6 @@ export default function MobileMenu() {
   }, []);
 
   if (isMobile) {
-    const pathname: string = usePathname();
     return (
       <div className={styles.main}>
         <div className={styles.menuContainer}>
