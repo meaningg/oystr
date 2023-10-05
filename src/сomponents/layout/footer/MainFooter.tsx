@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import styles from "./footer.module.scss";
 
-export default function () {
+export default function MainFooter() {
   const pathname: string = usePathname();
 
   return (

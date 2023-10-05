@@ -6,7 +6,7 @@ import MenuButton from "../../buttons/menuButton/MenuButton";
 import MenuLink from "../../buttons/menuLink/MenuLink";
 import { usePathname } from "next/navigation";
 
-export default function () {
+export default function MainHeader() {
   const session = useSession();
   const pathname = usePathname();
 

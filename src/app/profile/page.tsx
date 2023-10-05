@@ -5,7 +5,6 @@ import Image from "next/image";
 import ProfileHeader from "@/сomponents/pageComponents/profile/profileHeader/ProfileHeader";
 export default async function Profile() {
   const session = await getServerSession(authConfig);
-  console.log(session);
 
   return (
     <div className={styles.main}>
